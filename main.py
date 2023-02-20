@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from flask import Flask
 from flask import render_template
 from flask import request
 from sklearn.feature_extraction.text import CountVectorizer
